@@ -30,6 +30,16 @@ Check the types out:
 
 ## ⭐ Second approach
 
+Very important things in this topic, like frequency response, phase diagram and order of the filter.
+
+**The order of filter**
+
+- **First order** filter: 20dB / decade
+- **Second order** filter: 40dB  / decade
+- **Third order** filter: 60dB / decade
+- etc.
+
+🚀 **Decade:** represents a tenfold change in frequency. 
 
 
 
