@@ -12,4 +12,13 @@ This repository is about Passive LPF filter with inverse Chebyshev LC Ladder.
 - Band pass filter
 - Notch filter
 
+👽**more precisely** There are only two basic type: Low-pass filter and the High-pass filter. The other two types are a combination of a low-pass or high-pass filter. 
+
+Check the types out:
+
+![image](https://github.com/user-attachments/assets/158b46d6-7e97-45b8-aa44-4a9f9ca06438)
+
+
+
+
 How can we design an excellent filter easily? Choose the type of filter for your project and understand how it works. This description is about Low Pass Filter, 
