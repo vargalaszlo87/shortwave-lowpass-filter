@@ -2,6 +2,8 @@
 
 This repository is about Passive LPF filter with inverse Chebyshev LC Ladder.
 
+![image](https://github.com/user-attachments/assets/b24af1f2-ff0a-46d7-90f8-5f7df9ca6cb9)
+
 ## ⭐ First approach
 
 **What makes a filter?** The filters are used to separate one band of frequency from another.
