@@ -30,9 +30,9 @@ Check the types out:
 
 ## ⭐ Second approach
 
-Very important things in this topic, like frequency response, phase diagram and order of the filter.
+Very important things in this topic, like frequency response, phase diagram and order of the filter. 
 
-**The order of filter**
+**The order of filter:**
 
 - **First order** filter: 20dB / decade
 - **Second order** filter: 40dB  / decade
@@ -41,6 +41,9 @@ Very important things in this topic, like frequency response, phase diagram and 
 
 🚀 **Decade:** represents a tenfold change in frequency. 
 
+**Phase response:** shows how the filter phase shifts components of different frequencies.
+
+Understanding the phase response is important because it affects signal integrity, timing, and system stability. This description will not cover this in detail, but if you want to know more about it, start here: https://www.analog.com/en/resources/analog-dialogue/articles/band-pass-response-in-active-filters.html
 
 
 
