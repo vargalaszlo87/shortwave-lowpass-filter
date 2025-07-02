@@ -47,4 +47,11 @@ Understanding the phase response is important because it affects signal integrit
 
 # 👾 LPF filter in this REPO is an inverse Chebyshev filter
 
-How can we design an excellent filter easily? Choose the type of filter for your project and understand how it works. This description is about Low Pass Filter, 
+How can we design an excellent filter easily? Choose the type of filter for your project and understand how it works. This description is about Low Pass Filter.
+
+**This diagram shows the amplitude attenuation character of an inverse Chebyshev filter:**
+
+![image](https://github.com/user-attachments/assets/3bd39761-d9c2-464b-852c-3a6ebd58392c)
+
+
+
