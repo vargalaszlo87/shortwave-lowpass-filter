@@ -53,5 +53,7 @@ How can we design an excellent filter easily? Choose the type of filter for your
 
 ![image](https://github.com/user-attachments/assets/3bd39761-d9c2-464b-852c-3a6ebd58392c)
 
-**👹How much info does this graph give me? a lot!**
+## 👹How much info does this graph give me? a lot!**
+
+
 
