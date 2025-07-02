@@ -45,6 +45,6 @@ Very important things in this topic, like frequency response, phase diagram and 
 
 Understanding the phase response is important because it affects signal integrity, timing, and system stability. This description will not cover this in detail, but if you want to know more about it, start here: https://www.analog.com/en/resources/analog-dialogue/articles/band-pass-response-in-active-filters.html
 
-
+## ⭐ Out LPF filter called inverse Chebyshev
 
 How can we design an excellent filter easily? Choose the type of filter for your project and understand how it works. This description is about Low Pass Filter, 
