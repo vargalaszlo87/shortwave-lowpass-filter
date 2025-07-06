@@ -61,6 +61,7 @@ We need to look at two cases.
 
 This case is the simplest way to understand the passband, the cut-off frequency and the stop-band.
 
-![image](https://github.com/user-attachments/assets/7d03eef7-43b9-4cf4-bf0a-699c84540bc1)
+![image](https://github.com/user-attachments/assets/ee6d97a7-94b1-468e-8bb0-fc62cddbb811)
+
 
 
