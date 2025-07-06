@@ -55,5 +55,12 @@ How can we design an excellent filter easily? Choose the type of filter for your
 
 ## 👹How much info does this graph give me? a lot!
 
+We need to look at two cases.
+
+### First case
+
+This case is the simplest way to understand the passband, the cut-off frequency and the stop-band.
+
+![image](https://github.com/user-attachments/assets/7d03eef7-43b9-4cf4-bf0a-699c84540bc1)
 
 
