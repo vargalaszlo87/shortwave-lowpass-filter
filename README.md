@@ -63,5 +63,9 @@ This case is the simplest way to understand the passband, the cut-off frequency 
 
 ![image](https://github.com/user-attachments/assets/ee6d97a7-94b1-468e-8bb0-fc62cddbb811)
 
+### Second case
+
+![image](https://github.com/user-attachments/assets/cb843c5b-5cad-4c23-b555-52f4ee05c9c7)
+
 
 
