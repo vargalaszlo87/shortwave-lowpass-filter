@@ -77,7 +77,10 @@ This case is the simplest way to understand the passband, the cut-off frequency 
 
 ### Second case
 
+The second variant is more difficult. For example, if you have a higher order Chebyshev or Ellipcit filter, the former method will not work. Look at the following diagram:
+
 ![image](https://github.com/user-attachments/assets/cb843c5b-5cad-4c23-b555-52f4ee05c9c7)
+
 
 
 
