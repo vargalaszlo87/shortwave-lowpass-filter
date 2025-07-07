@@ -59,7 +59,19 @@ We need to look at two cases.
 
 ### First case
 
-This case is the simplest way to understand the passband, the cut-off frequency and the stop-band.
+This case is the simplest way to understand the passband, the cut-off frequency and the stop-band. The Bode-chart (without phase-chart) can be interpreted as follows:
+
+- the passband is the frequency that the filter passes through (0dB dashed line here and the blue line)
+- there is also a dashed line of -3dB, which is the maximum attenuation of the passband
+- the cut-off frequency is  where the blue line meets the dashed line of -3dB
+- the transition area where the attenuation increases
+- and the stopband where the attenuation is maximal
+
+🚀 **what to do if you see a similar amplitude diagram, where is the cuttoff frequency?**
+
+1. find the maximum amplitued in passband (for example 0dB)
+2. draw a line at level of -3dB
+3. the point where the level -3dB meets the amplitude line  
 
 ![image](https://github.com/user-attachments/assets/ee6d97a7-94b1-468e-8bb0-fc62cddbb811)
 
