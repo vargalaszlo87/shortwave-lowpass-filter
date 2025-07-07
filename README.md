@@ -89,10 +89,10 @@ The second variant is more difficult. For example, if you have a higher order Ch
 
 **📢 Some axioms**
 
-- ###the delta $$δ$$ value is the allowed swing in the bandpass
-- ###there isn't -3dB point on curve, the cutoff frequency is at the intersection of $$1 - δ_1$$ and $$f_p$$ lines
-- ###the start of the stopband starts at the intersection of $$δ_2$$ and $$f_s$$ lines
-- ###the maximal attenuation of the stopband is the highest 
+- the delta $$δ$$ value is the allowed swing in the bandpass
+- there isn't -3dB point on curve, the cutoff frequency is at the intersection of $$1 - δ_1$$ and $$f_p$$ lines
+- the start of the stopband starts at the intersection of $$δ_2$$ and $$f_s$$ lines
+- the maximal attenuation of the stopband is the highest 
 
 ![image](https://github.com/user-attachments/assets/cb843c5b-5cad-4c23-b555-52f4ee05c9c7)
 
