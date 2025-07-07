@@ -94,8 +94,21 @@ The second variant is more difficult. For example, if you have a higher order Ch
 - the maximal attenuation of the filter is the highest amplitude after the point of $$f_s$$
 - the slope can be measured in the $$Δf$$ band
 
-
 ![image](https://github.com/user-attachments/assets/cb843c5b-5cad-4c23-b555-52f4ee05c9c7)
+
+## 🚀 Let's start!
+
+1. Find the max amplitude in the passband. The value is ~ -6.02dB here.
+2. Find the ~ -9dB level
+3. The -3db point is at the intersection of amplitude and -9dB lines
+4. The cut-off frequency is at the intersection of the x-axis and the -3dB point line cursor.
+
+![inv_cheb_lpf_plot_02](https://github.com/user-attachments/assets/d6d5e86d-3b7d-40d2-a62c-d88037b82f31)
+
+
+
+
+
 
 
 
