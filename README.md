@@ -79,6 +79,12 @@ This case is the simplest way to understand the passband, the cut-off frequency 
 
 The second variant is more difficult. For example, if you have a higher order Chebyshev or Ellipcit filter, the former method will not work. Look at the following diagram:
 
+:boom **These types ripple in both the bandwidth and the stopband.** So, we have many questions:
+
+- where can we measure the maximal amplitude in passband?
+- wath is the attenuation in stopband?
+- etc.
+
 ![image](https://github.com/user-attachments/assets/cb843c5b-5cad-4c23-b555-52f4ee05c9c7)
 
 
