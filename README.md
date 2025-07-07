@@ -103,6 +103,10 @@ The second variant is more difficult. For example, if you have a higher order Ch
 3. The -3db point is at the intersection of amplitude and -9dB lines
 4. The cut-off frequency is at the intersection of the x-axis and the -3dB point line cursor.
 
+![inv_cheb_lpf_plot_01](https://github.com/user-attachments/assets/dde0978a-1ab8-452f-ab36-6a1421550b66)
+
+
+
 ![inv_cheb_lpf_plot_02](https://github.com/user-attachments/assets/d6d5e86d-3b7d-40d2-a62c-d88037b82f31)
 
 
