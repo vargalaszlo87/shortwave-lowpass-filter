@@ -84,7 +84,6 @@ The second variant is more difficult. For example, if you have a higher order Ch
 - where can we measure the maximal amplitude in passband?
 - wath is the attenuation in stopband?
 - where exactly is the cutoff point?
-- 
 - etc.
 
 **📢 Some axioms**
