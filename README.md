@@ -89,7 +89,8 @@ The second variant is more difficult. For example, if you have a higher order Ch
 
 **📢 Some axioms**
 
-- There are a delta (δ) value 
+- the delta (**δ**) value is the allowed swing in the bandpass
+- there isn't -3dB point on curve, the cutoff frequency is at the **1 - δ** and **fp** lines 
 
 ![image](https://github.com/user-attachments/assets/cb843c5b-5cad-4c23-b555-52f4ee05c9c7)
 
