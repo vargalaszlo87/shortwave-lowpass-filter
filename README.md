@@ -134,5 +134,16 @@ The second variant is more difficult. For example, if you have a higher order Ch
 
 ![inv_cheb_lpf_plot_04](https://github.com/user-attachments/assets/bd4aec98-ab35-4c94-a99d-91f8505fb93f)
 
+**What happens to the phase?**
+
+![image](https://github.com/user-attachments/assets/2df596ce-e1bf-4ee7-a7b7-4b90e96366ed)
+
+# 👾 The results of this filter
+
+## Cutoff frequency = 31.23MHz
+## Passband gain = -6.02dB
+## Ripple in passband = < 1dB
+## roll-off slope = -30.01dB / decade
+## Stopband attenuation = -36.46dB
 
 
