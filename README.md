@@ -130,7 +130,7 @@ The second variant is more difficult. For example, if you have a higher order Ch
 *In this case:*
 
 1. You can use the -3dB point as a first point of the slope.
-2. The second point is the point at 10 times the frequency
+2. The second point is the point at 10 times the frequency.
 
 ![inv_cheb_lpf_plot_04](https://github.com/user-attachments/assets/bd4aec98-ab35-4c94-a99d-91f8505fb93f)
 
