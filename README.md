@@ -116,7 +116,9 @@ The second variant is more difficult. For example, if you have a higher order Ch
 
 **How wide is the transition band?**
 
-1. 
+1. Set the first cursor to the -3dB level
+2. Set the horizontal line of the second cursor to the maximum value in the stopband.
+3. The width of transition band is betwen the two horizontal lines of the cursors.
 
 ![inv_cheb_lpf_plot_03](https://github.com/user-attachments/assets/390e4685-b35d-4ccd-9f23-6b97dd3b8d3d)
 
