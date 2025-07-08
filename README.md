@@ -114,6 +114,11 @@ The second variant is more difficult. For example, if you have a higher order Ch
 
 ![inv_cheb_lpf_plot_02](https://github.com/user-attachments/assets/d6d5e86d-3b7d-40d2-a62c-d88037b82f31)
 
+**How wide is the transition band?**
+
+1. 
+
+![inv_cheb_lpf_plot_03](https://github.com/user-attachments/assets/390e4685-b35d-4ccd-9f23-6b97dd3b8d3d)
 
 
 
