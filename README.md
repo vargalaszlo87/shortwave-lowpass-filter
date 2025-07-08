@@ -122,10 +122,17 @@ The second variant is more difficult. For example, if you have a higher order Ch
 
 ![inv_cheb_lpf_plot_03](https://github.com/user-attachments/assets/390e4685-b35d-4ccd-9f23-6b97dd3b8d3d)
 
+**How steep is the slope?**
 
+1. Find a quasi linear section on the slope or linearize the function in transition band.
+2. Measure the reduction in magnitude between a decade.
 
+*In this case:*
 
+1. You can use the -3dB point as a first point of the slope.
+2. The second point is the point at 10 times the frequency
 
+![inv_cheb_lpf_plot_04](https://github.com/user-attachments/assets/bd4aec98-ab35-4c94-a99d-91f8505fb93f)
 
 
 
