@@ -98,6 +98,8 @@ The second variant is more difficult. For example, if you have a higher order Ch
 
 ## 🚀 Let's start!
 
+**Where is the point of -3dB?**
+
 1. Find the max amplitude in the passband. The value is ~ -6.02dB here.
 2. Find the ~ -9dB level
 3. The -3db point is at the intersection of amplitude and -9dB lines
@@ -105,7 +107,10 @@ The second variant is more difficult. For example, if you have a higher order Ch
 
 ![inv_cheb_lpf_plot_01](https://github.com/user-attachments/assets/dde0978a-1ab8-452f-ab36-6a1421550b66)
 
+**What is the maximal attenuation of the filter?**
 
+1. Find the largest magnitude in stopband and draw a line to that level.
+2. Calc the different between the -3dB level and previous level.
 
 ![inv_cheb_lpf_plot_02](https://github.com/user-attachments/assets/d6d5e86d-3b7d-40d2-a62c-d88037b82f31)
 
