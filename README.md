@@ -140,7 +140,7 @@ The second variant is more difficult. For example, if you have a higher order Ch
 
 # 👾 S parameters of filter
 
-One of themost important things in life of RF is the S-parameters. In this world can be use S matrix instead of Z, Y, H. See it the python code with scikit-rf package:
+One of the most important things in life of RF is the S-parameters. In this world can be use S matrix instead of Z, Y, H. See it the python code with scikit-rf package:
 
 ```python
 
@@ -186,6 +186,17 @@ cir.plot_graph(network_labels=True, network_fontsize=15,
 plt.show()
 
 ```
+
+This package can't be load an *.asc (LTSpice) or an netlist, therefore you must insert the circuit in a special form (**cnx** Tuple in the previous code). We can check our's circuit using the networkx package:
+
+<img width="955" height="733" alt="image" src="https://github.com/user-attachments/assets/237d76a0-aa4b-4656-afd8-db127e3c4d5d" />
+
+Finally the result of this code which shows the S11 and S21 parameters:
+
+<img width="616" height="457" alt="image" src="https://github.com/user-attachments/assets/9277b112-34c2-4c5f-83dc-8e534ec9e75a" />
+
+Description coming soon... :)
+
 
 # 👾 The results of this filter
 
