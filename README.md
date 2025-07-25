@@ -147,7 +147,7 @@ One of the most important things in life of RF is the S-parameters. In this worl
 import skrf as rf
 import matplotlib.pyplot as plt
 
-freq = rf.Frequency(start=0.1, stop=100, unit='MHz', npoints=1001)
+freq = rf.Frequency(start=0.1, stop=1000, unit='MHz', npoints=1001)
 tl_media = rf.DefinedGammaZ0(freq, z0=50, gamma=1j*freq.w/rf.c)
 
 C1 = tl_media.capacitor(47e-12, name='C1')
@@ -193,7 +193,7 @@ This package can't be load an *.asc (LTSpice) or an netlist, therefore you must 
 
 Finally the result of this code which shows the S11 and S21 parameters:
 
-<img width="616" height="457" alt="image" src="https://github.com/user-attachments/assets/9277b112-34c2-4c5f-83dc-8e534ec9e75a" />
+<img width="610" height="429" alt="image" src="https://github.com/user-attachments/assets/c39fc4a9-7238-45c4-af1a-de4c7f2c04d4" />
 
 Description coming soon... :)
 
