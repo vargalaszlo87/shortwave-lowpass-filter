@@ -138,6 +138,55 @@ The second variant is more difficult. For example, if you have a higher order Ch
 
 ![image](https://github.com/user-attachments/assets/2df596ce-e1bf-4ee7-a7b7-4b90e96366ed)
 
+# 👾 S parameters of filter
+
+One of themost important things in life of RF is the S-parameters. In this world can be use S matrix instead of Z, Y, H. See it the python code with scikit-rf package:
+
+```python
+
+import skrf as rf
+import matplotlib.pyplot as plt
+
+freq = rf.Frequency(start=0.1, stop=100, unit='MHz', npoints=1001)
+tl_media = rf.DefinedGammaZ0(freq, z0=50, gamma=1j*freq.w/rf.c)
+
+C1 = tl_media.capacitor(47e-12, name='C1')
+C2 = tl_media.capacitor(220e-12, name='C2')
+C3 = tl_media.capacitor(47e-12, name='C3')
+C4 = tl_media.capacitor(220e-12, name='C4')
+C5 = tl_media.capacitor(10e-12, name='C5')
+
+L2 = tl_media.inductor(270e-9, name='L2')
+L3 = tl_media.inductor(270e-9, name='L3')
+
+gnd = rf.Circuit.Ground(freq, name='gnd')
+port1 = rf.Circuit.Port(freq, name='port1', z0=50)
+port2 = rf.Circuit.Port(freq, name='port2', z0=50)
+
+
+
+cnx = [
+    [(port1, 0), (C1, 0), (L2, 0), (C3, 0)],
+    [(L2, 1), (C3, 1), (C2, 0), (L3, 0), (C5, 0)],
+    [(L3, 1), (C5, 1), (C4, 0), (port2, 0)],
+    [(gnd, 0), (C1, 1), (C2, 1), (C4,1)]
+
+]
+
+cir = rf.Circuit(cnx)
+ntw = cir.network
+
+ntw.plot_s_db(m=0, n=0, lw=2, logx=True)
+ntw.plot_s_db(m=1, n=0, lw=2, logx=True)
+
+cir.plot_graph(network_labels=True, network_fontsize=15,
+               port_labels=True, port_fontsize=15,
+              edge_labels=True, edge_fontsize=10)
+
+plt.show()
+
+```
+
 # 👾 The results of this filter
 
 ## Cutoff frequency = 31.23MHz
